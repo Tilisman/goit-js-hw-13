@@ -1,0 +1,22 @@
+{{#each this}}
+    <div class="gallery-card">
+        <div class="image-thumb">
+            <a calss="image-link" href="{{largeImageURL}}"><img src="{{webformatURL}}" data-source="{{largeImageURL}}" alt="{{tags}}" loading="lazy" class="image"
+                 /></a>
+        </div>
+        <div class="info">
+            <p class="info-item">
+                <b class="info-subtitle">Likes <span class ="info-text">{{likes}}</span> </b>
+            </p>
+            <p class="info-item">
+                <b class="info-subtitle">Views <span class ="info-text">{{views}}</span></b>
+            </p>
+            <p class="info-item">
+                <b class="info-subtitle">Comments <span class ="info-text">{{comments}}</span></b>
+            </p>
+            <p class="info-item">
+                <b class="info-subtitle">Downloads <span class ="info-text">{{downloads}}</span></b>
+            </p>
+        </div>
+    </div>
+{{/each}}
