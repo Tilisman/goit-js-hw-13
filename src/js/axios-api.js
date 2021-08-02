@@ -32,7 +32,7 @@ form.addEventListener("submit", (evt) => {
     form.reset();
 });
 
-loadMore(more);
+loadMore(buttonLoadMore);
 
 function getFetch() {
     let page = 1;
